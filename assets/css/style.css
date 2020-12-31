@@ -1,0 +1,26 @@
+.logo{
+    width: 80px;
+}
+
+
+#main{
+    font-size: 1rem;
+    background-color: red;
+    height: 100vh;
+    display: flex;
+}
+
+
+#main .left-content{
+    width: 50%;
+}
+
+#main .right-content{
+    width: 50%;
+}
+
+#main .card{
+    display: flex;
+    background-color: #363840;
+}
+
