@@ -1,0 +1,39 @@
+.logos{
+    width: 250px;
+}
+#main{
+    font-size: 1rem;
+    background-color: slategrey;
+    height: 100vh;
+    display: flex;
+}
+#main .left-content{
+    width: 50%;
+}
+#main .right-content{
+    width: 50%;
+}
+#card-body .card1{
+    padding: 10px;
+}
+#card-body .card2{
+    padding: 10px;
+}
+#main .card1{
+    background-color:violet;
+    display: flex;
+
+}
+#main .card1 img{
+    height: 250px;
+    width: 250px;
+}
+#main .card2{
+    background-color:violet;
+    display: flex;
+
+}
+#main .card2 img{
+    height: 250px;
+    width: 250px;
+}
