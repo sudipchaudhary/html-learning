@@ -24,3 +24,36 @@
     background-color: #363840;
 }
 
+.total-rating{
+    color: aqua;
+}
+
+
+
+/* Table CSS starts here */
+table td{
+    width: 33.33%;
+}
+
+.flex-example{
+    display: flex;
+    border: 2px solid aqua;
+}
+
+.flex-example div{
+    flex: 1;
+}
+
+.flex-example div.col:last-child{
+    text-align: right;
+}
+
+.flex-example div.col:nth-child(2){
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Table CSS ends here */
