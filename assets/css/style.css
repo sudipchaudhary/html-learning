@@ -57,3 +57,40 @@ table td{
 
 
 /* Table CSS ends here */
+
+/* Layout CSS starts here */
+.card{
+    background-color: aqua;
+    border: 2px solid teal;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .img{
+    background-color: tomato;
+    border: 1px solid violet;
+    height: 100px;
+    width: 100px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .description{
+    margin: 4px;
+    text-align: justify;
+    flex: 1;
+}
+
+.three-col{
+    display: flex;
+}
+
+.card.row{
+    flex-direction: row;
+}
+
+/* Layout CSS end here */
