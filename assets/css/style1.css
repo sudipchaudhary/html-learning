@@ -3,7 +3,8 @@ body{
 
 }
 .logos{
-    width: 250px;
+    width: 120px;
+    margin-left: 60px;
 }
 #main{
     font-size: 1rem;
@@ -12,44 +13,33 @@ body{
 }
 #main .left-content{
     width: 50%;
+    margin-left: 80px;
 }
 #main .left-content h1{
     color: white;
     text-align: center;
     padding-top: 10px;
 }
+ .card1{
+    padding: 10px;
+}
+#main .card1{
+    background-color:rgba(114, 110, 110, 0.2);
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+}
+#main .card1 img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
 #main .right-content{
     width: 50%;
+    margin-right: 80px;
 }
 #main .right-content h1{
     color: white;
     text-align: center;
     padding-top: 10px;
-}
- .card1{
-    padding: 10px;
-
-}
- .card2{
-    padding: 10px;
-}
-#main .card1{
-    background-color:rgb(87, 85, 85);
-    display: flex;
-    margin: 20px;
-
-}
-#main .card1 img{
-    height: 250px;
-    width: 250px;
-}
-#main .card2{
-    background-color:rgb(87, 85, 85);
-    display: flex;
-    margin: 20px;
-
-}
-#main .card2 img{
-    height: 250px;
-    width: 250px;
 }
