@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(43, 44, 44);
+
+}
+.logos{
+    width: 120px;
+    margin-left: 60px;
+}
+#main{
+    font-size: 1rem;
+    height: 100vh;
+    display: flex;
+}
+#main .left-content{
+    width: 50%;
+    margin-left: 80px;
+}
+#main .left-content h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+ .card1{
+    padding: 10px;
+}
+#main .card1{
+    background-color:rgba(114, 110, 110, 0.2);
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+}
+#main .card1 img{
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}
+#main .right-content{
+    width: 50%;
+    margin-right: 80px;
+}
+#main .right-content h1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
