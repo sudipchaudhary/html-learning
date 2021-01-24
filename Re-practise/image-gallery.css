@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    text-align: center;
+    background-color: rgb(184, 157, 162);
+    padding: 20px;
+}
+.wrapper h1{
+    color: rgb(23, 59, 23);
+    margin-bottom: 10px;
+}
+.wrapper img{
+    height: 250px;
+    width: 250px;
+    opacity: 0.6;
+}
+.wrapper img:hover{
+    opacity: 1.0;
+}

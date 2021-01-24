@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px;
+}
+h1{
+    padding: 20px;
+    border-bottom:2px solid rgb(196, 138, 138);
+    background-color: rgb(155, 207, 185);
+    text-shadow: 2px 2px 3px  red;
+}
+h1 a:hover{
+    color: bisque;
+}
+
+.com{
+    color: rgb(49, 211, 49);
+}
+.com:hover{
+    color: bisque;
+}
+a{
+    text-decoration: none;
+}
+.html{
+    text-align: center;
+    padding: 40px;
+    border-bottom: 2px solid rgb(175, 121, 137);
+}
+#html1{
+    background-color: rgb(223, 213, 200);
+}
+#html2{
+    background-color: rgb(210, 219, 194);
+}
+.html-head{
+    font-size: xx-large;
+    margin-bottom:30px ;
+}
+.sentence{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:30px ;
+
+}
+.box{
+    display: flex;
+    padding-left: 10px;
+}
+.box a:hover{
+    color:white;
+}
+.box1{
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    border-radius: 10px;
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .box{
+        padding-left: 200px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .box{
+        padding-left:300px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .box{
+        padding-left:472px;
+    }
+}

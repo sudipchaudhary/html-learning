@@ -1,0 +1,51 @@
+/* reset css for all */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* css for main */
+.main{
+    margin: 16px;
+}
+/* css for header */
+.header{
+    text-align: center;
+    background-color: lightgray;
+    padding: 80px;
+}
+/* css for container */
+.container{
+    display: flex;
+    height: 350px;
+}
+/* css for left-part */
+.container .left-part{
+    background-color: lightskyblue;
+    flex: 1;
+}
+/* css for ul */
+.container .left-part ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+/* css for li */
+.container .left-part ul li a{
+    text-decoration: none;
+}
+/* css for hover */
+.container .left-part ul li a:hover{
+    background-color: lightgreen;
+}
+/* css for right-part */
+.container .right-part{
+    background-color: lightyellow;
+    flex: 3;
+}
+/* css for footer */
+.footer{
+    text-align: center;
+    background-color: rgb(122, 126, 126);
+    padding: 28px;
+}

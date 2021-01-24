@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*grid first css*/
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightpink;
+    padding: 10px;
+}
+.item{
+    background-color: lightseagreen;
+    border: 1px solid gray ;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    text-shadow: 2px 2px rgb(196, 190, 188);
+
+}
+h1{
+    color: indianred;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 10px;
+    background-color:rgb(84, 69, 138);
+    border-radius: 5px;
+    text-shadow:2px 2px gray;   
+}
+/* grid first css end */
+
+
+
+/* gird second css start here */
+
+/* gird second css end here */

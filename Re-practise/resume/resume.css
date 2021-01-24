@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    padding:40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    margin-top: 20px;
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 20px 0px;
+    font-size: large;
+}
+.qual{
+    padding-left: 14px;
+}
+.known{
+    padding-left: 25px;
+    list-style-type: disc;
+}
+.bold{
+    font-weight: bold;
+}
