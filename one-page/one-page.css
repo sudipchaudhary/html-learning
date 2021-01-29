@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    font-family: system-ui;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    padding: 50px 70px;
+    opacity: 0.9;
+}
+.wrapper{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.letter{
+    padding: 30px;
+}
+.letter-wrapper1{
+    margin-bottom: 32px;
+}
+.letter-wrapper1 #name{
+    font-size: 28px;
+    font-weight: bold;
+}
+.letter-wrapper1 #profesion{
+    font-size: 20px;
+}
+.picture{
+    display: flex;
+}
+.picture-wrapper1 >div{
+    background-color: lightseagreen;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 14px
+}
+div >img{
+    padding-top: 22px;
+}
+.picture-wrapper2 >div{
+    background-color:lightseagreen;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 14px
+}
+div >img{
+    padding-top: 22px;
+}

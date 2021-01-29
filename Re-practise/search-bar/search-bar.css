@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightsalmon;
+}
+.main{
+    padding: 100px;
+}
+.wrapper{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.wrapper .input{
+    outline: 0;
+    border: 0  
+}
+.wrapper .icon img{
+    height: 16px;
+    padding: 14px; 
+}
+.main:hover{
+    background-color: rgb(111, 134, 133);
+}
