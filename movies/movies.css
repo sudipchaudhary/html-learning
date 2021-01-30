@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(49, 49, 49);
+}
+.main{
+    margin: auto;
+    width: 80%;
+    color: white;
+}
+.main .logo {
+    padding-top: 16px;
+}
+.main .logo .brand{
+    height: 90px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper .showlist h1{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    background-color: rgb(58, 58, 57);
+    padding: 14px;
+    margin-bottom: 12px;
+    margin-right: 34px;
+}
+.card:hover{
+    background-color: rgb(78, 78, 78);
+    border-radius: 16px;
+}
+.card .card-image img{
+    height: 200px;
+    width: 130px;
+}
+.wrapper .card-letter{
+    padding: 10px;
+}
+.wrapper .card-letter>div{
+    margin-bottom: 18px;
+}
+.wrapper .card-letter .rate, .title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.wrapper .card-letter .trailer{
+    font-size: 18px;
+}
+.wrapper .card-letter .feature{
+    color: darkgray;
+    line-height: 26px;
+}
+.wrapper .card-letter .whole{
+    color: darkgray;
+    font-weight: bold;
+}
+
+.wrapper .movieslist h1{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
