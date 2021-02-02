@@ -1,0 +1,50 @@
+.main{
+    padding: 32px 48px;
+}
+
+.header{
+ display: flex;
+ justify-content: space-between;
+}
+
+.header .contact{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.header .contact span{
+    /* font-size: 2em; */
+}
+
+
+
+.employment-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.responsive{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.responsive div{
+    flex-basis: 100%;
+    margin: 12px;
+    height: 300px;
+    border: 1px solid springgreen;
+    background-color: tan;
+}
+
+@media (min-width: 768px) {
+	.responsive div:last-child{
+        flex-basis: 100%;  
+    }
+}
+@media (min-width: 992px) {	
+	.responsive div{
+        flex: 1;  
+    }
+}

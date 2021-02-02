@@ -1,0 +1,168 @@
+.container{
+    padding: 0;
+}
+
+.header{
+    background-color: #7DD9E8;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.header .content-left{
+    flex: 2;
+    background-color: teal;
+    display: flex;
+}
+
+.header .content-left .logo{
+    background-color: yellow;
+    line-height: 36px;
+    font-size: 24px;
+}
+
+.header .content-left .search{
+    padding-left: 16px;
+    background-color: violet;
+    line-height: 24px;
+}
+
+.header .content-right{
+    flex: 1;
+    background-color: tomato;
+    text-align: right;
+}
+
+.navbar{
+    background-color: #F5F5F5;
+    display: flex;
+    line-height: 36px;
+}
+
+.navbar .menu{
+    flex: 2;
+    background-color: yellowgreen;
+}
+
+.navbar .extra{
+    flex: 1;
+    background-color: aqua;
+}
+
+.content{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .left{
+    background-color: crimson;
+    height: 200px;
+}
+
+.content .mid{
+    background-color: chocolate;
+    height: 200px;
+}
+
+.content .right{
+    background-color: bisque;
+    height: 200px;
+}
+
+.footer{
+    background-color: #727272;
+    display: flex;
+    line-height: 36px;
+}
+
+.footer .menu{
+    flex: 2;
+}
+
+.footer .copyright{
+    flex: 1;
+}
+
+
+/* Aja ko start here */
+.tab-menu{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: darkgreen;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.tab-content{
+    border-top-left-radius: 20px;
+    background-color: blue;
+    text-align: center;
+}
+
+.tab-menu-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid-top{
+    display: flex;
+}
+
+.menu-list{
+    display: none;
+}
+
+.menu-hamburger{
+    display: block;
+}
+
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    .container{
+        padding: 0 36px;
+    }
+    
+    .content{
+        flex-direction: row;
+    }
+
+    .content .left{
+        flex: 1;
+        height: 400px;
+    }
+    
+
+    .content .mid{
+        flex: 2;
+        height: 400px;
+    }
+    
+
+    .content .right{
+        flex: 1;
+        height: 400px;
+    }
+
+    .menu-list{
+        display: block;
+    }
+    
+    .menu-hamburger{
+        display: none;
+    }
+    
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 

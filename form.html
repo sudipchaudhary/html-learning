@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div>
+        <h1>This is form</h1>
+        
+        <form method="POST">
+            <label for="email">Email: </label>
+            <input type="email" name="email" />
+            <br/>
+
+            <i class="fas fa-address-book" ></i>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password" />
+            <br/>
+            
+            <label for="name">Name: </label>
+            <input type="text" name="name" />
+            <br/>       
+
+            <label for="country">Country</label>
+            <select name="country">
+                <option>Nepal</option>
+                <option>Japan</option>
+            </select>
+            
+            <br/>
+            <label for="drink">Preferred Drink:</label>
+            <br />
+            <label for="tea" >Tea</label>
+            <input type="checkbox" name="tea"  />
+
+
+            <label for="coffee" >Coffee</label>
+            <input type="checkbox" name="coffee" />
+            
+            <br/>
+            
+            <label for="gender">Gender</label>
+
+            <label for="male" >Male</label>
+            <input type="radio" value="male" name="gender" />
+            <label for="male" >Female</label>
+            <input type="radio" value="female" name="gender" />
+            <label for="male" >Other</label>
+            <input type="radio" value="other" name="gender" />
+            
+            <br/>
+            <!-- <label for="upload"></label> -->
+            <input type="file" name="Upload" />
+
+            <br/>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

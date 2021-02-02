@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Align Center</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+    </style>
+
+    <script src="./js/basics.js" ></script>
 </head>
 <body>
 
+    <a href="#bottom">Move bottom</a>
     <div style="height: 200vh; width: 100px; position: relative;">
 
         <div style="height: 200px; width: 200px; background-color: burlywood;">
@@ -24,5 +32,23 @@
             </div>
         </div>
     </div>
+
+    <div style="height: 500px; width: 500px; background-attachment: fixed; background: url(https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+    </div>
+
+    <div style="background-color: brown; height: 300px; ">
+        Top
+
+        <div style="position: absolute; background-color: cornsilk; width: 100px; height: 32px;
+        top: -24px; right: 24px;">
+            Float
+        </div>
+    </div>
+    <section id="bottom">
+        <div style="background-color: cadetblue; height: 300px; position: relative;">
+            Bottom
+        </div>
+    </section>
+
 </body>
 </html>

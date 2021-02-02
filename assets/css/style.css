@@ -93,4 +93,40 @@ table td{
     flex-direction: row;
 }
 
+.description:hover{
+    background-color: darkblue;
+    
+}
 /* Layout CSS end here */
+
+.tab{
+    display: flex;
+}
+
+.tab .tab-item{
+    background-color: darkgray;
+    padding: 20px;
+   
+    text-align: center;
+}
+.tab .tab-item:first-child{
+    border-top-left-radius: 20px;
+}
+
+.tab .tab-item:last-child{
+    margin-left: 2px;
+    border-top-right-radius: 20px;
+}
+
+.tab-item .menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.tab-item .menu div{
+    background-color: darkgreen;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 20px;
+}
