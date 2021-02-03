@@ -105,3 +105,47 @@ switch (num) {
  *
  * Assign variable num, if num<11='Below' , num 11='eleven',12='twelve',.....19='nineteen', num>19='Above'
  */
+
+function isEligibleToVote(age) {
+  //a=18
+  if (age >= 18) {
+    return "User can vote!";
+  } else {
+    return "User cannot vote!";
+  }
+}
+
+const ageOfUserA = 18;
+
+const aMsg = isEligibleToVote(ageOfUserA); // User can vote
+
+console.log(aMsg);
+
+const ageOfUserB = 14;
+
+const bMsg = isEligibleToVote(ageOfUserB);
+
+console.log(bMsg);
+
+function isEligibleToVote(age, country) {
+  //a=18
+  if (age >= 18) {
+    console.log("User can vote!");
+  } else {
+    console.log("User cannot vote!");
+  }
+}
+
+const ageOfUserA = 18;
+
+isEligibleToVote(ageOfUserA, "Nepal"); // User can vote
+
+const ageOfUserB = 14;
+
+isEligibleToVote(ageOfUserB);
+
+/**
+ * write a function which accept argument num and return square of number.
+ * Write a function which accpet firstName and lastName and return name in concatenated i.e Sudip,Chaudhary=>Sudip Chaudhary
+ * Write a function which accept number and return eleven, twelve etc... same as above question.
+ */
