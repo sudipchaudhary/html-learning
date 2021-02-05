@@ -149,3 +149,23 @@ isEligibleToVote(ageOfUserB);
  * Write a function which accpet firstName and lastName and return name in concatenated i.e Sudip,Chaudhary=>Sudip Chaudhary
  * Write a function which accept number and return eleven, twelve etc... same as above question.
  */
+
+//1+1+1+1+1 = 5
+let ans = 0;
+
+for (let i = 1; i <= 5; i++) {
+  ans += 1;
+}
+
+let i = 0;
+let guessNo;
+
+while (i <= 10) {
+  if (i == guessNo) {
+    i = 11;
+  }
+
+  i++;
+}
+
+// do {} while (i < 10);
