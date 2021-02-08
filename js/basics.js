@@ -115,34 +115,34 @@ function isEligibleToVote(age) {
   }
 }
 
-const ageOfUserA = 18;
+// const ageOfUserA = 18;
 
-const aMsg = isEligibleToVote(ageOfUserA); // User can vote
+// const aMsg = isEligibleToVote(ageOfUserA); // User can vote
 
-console.log(aMsg);
+// console.log(aMsg);
 
-const ageOfUserB = 14;
+// const ageOfUserB = 14;
 
-const bMsg = isEligibleToVote(ageOfUserB);
+// const bMsg = isEligibleToVote(ageOfUserB);
 
-console.log(bMsg);
+// console.log(bMsg);
 
-function isEligibleToVote(age, country) {
-  //a=18
-  if (age >= 18) {
-    console.log("User can vote!");
-  } else {
-    console.log("User cannot vote!");
-  }
-}
+// function isEligibleToVote(age, country) {
+//   //a=18
+//   if (age >= 18) {
+//     console.log("User can vote!");
+//   } else {
+//     console.log("User cannot vote!");
+//   }
+// }
 
-const ageOfUserA = 18;
+// const ageOfUserA = 18;
 
-isEligibleToVote(ageOfUserA, "Nepal"); // User can vote
+// isEligibleToVote(ageOfUserA, "Nepal"); // User can vote
 
-const ageOfUserB = 14;
+// const ageOfUserB = 14;
 
-isEligibleToVote(ageOfUserB);
+// isEligibleToVote(ageOfUserB);
 
 /**
  * write a function which accept argument num and return square of number.
@@ -151,21 +151,130 @@ isEligibleToVote(ageOfUserB);
  */
 
 //1+1+1+1+1 = 5
-let ans = 0;
+// let ans = 0;
 
-for (let i = 1; i <= 5; i++) {
-  ans += 1;
-}
+// for (let i = 1; i <= 5; i++) {
+//   ans += 1;
+// }
 
-let i = 0;
-let guessNo;
+// let i = 0;
+// let guessNo;
 
-while (i <= 10) {
-  if (i == guessNo) {
-    i = 11;
-  }
+// while (i <= 10) {
+//   if (i == guessNo) {
+//     i = 11;
+//   }
 
-  i++;
-}
+//   i++;
+// }
 
 // do {} while (i < 10);
+
+let arr = [1, "string", 12.5];
+
+// throw new Error("Hello");
+
+//Static typing and Dynamic typing => static: cpp, Java, C# dynamic: python, JS
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]); //0,string,12.5
+}
+
+let multiArr = [
+  [1, 2, 3],
+  [101, 102],
+];
+
+// console.log(multiArr.length);
+// console.log(multiArr[0]);
+
+for (let i = 0; i < multiArr.length; i++) {
+  //2
+  const temp = multiArr[i]; //3,2
+
+  for (let j = 0; j < temp.length; j++) {
+    console.log(multiArr[i][j]);
+  }
+}
+
+let person = {
+  name: "Sudip",
+  roll: 1,
+  country: "Nepal",
+};
+
+let person1 = {
+  name: "Asmin",
+  roll: 2,
+  country: "Nepal",
+};
+
+person.country = "Japan";
+
+console.log(person.country);
+
+const element = document.getElementById("message");
+
+element.innerHTML = "Changed message";
+
+console.log(element);
+
+function PersonFromFunc(name, roll, country) {
+  this.name = name;
+  this.roll = roll;
+  this.country = country;
+
+  this.getName = function () {
+    return this.name;
+  };
+
+  this.setName = function (name) {
+    this.name = name;
+  };
+}
+
+let manxe = new PersonFromFunc("Sudip", 1, "Japan");
+
+console.log(manxe.getName(), manxe.country, manxe.roll); //Sudip
+
+manxe.setName("Asmin");
+
+console.log(PersonFromFunc);
+
+class PersonFromClass {
+  name = "Ram";
+  roll;
+  country;
+
+  constructor(name, roll, country) {
+    this.name = name;
+    this.roll = roll;
+    this.country = country;
+  }
+
+  getName = function () {
+    return name;
+  };
+
+  setName = function (name) {
+    this.name = name;
+  };
+}
+
+let man = new PersonFromClass("Ram", 3, "Nepal");
+
+console.log(man.name);
+
+man.setName("Hari");
+
+console.log(man.name);
+
+const adult = {
+  name: "Shyam",
+  roll: 5,
+  getName: function (name) {
+    return name;
+  },
+};
+
+console.log(adult.getName("Sita"));
