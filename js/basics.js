@@ -213,11 +213,11 @@ person.country = "Japan";
 
 console.log(person.country);
 
-const element = document.getElementById("message");
+// const element = document.getElementById("message");
 
-element.innerHTML = "Changed message";
+// element.innerHTML = "Changed message";
 
-console.log(element);
+// console.log(element);
 
 function PersonFromFunc(name, roll, country) {
   this.name = name;
@@ -278,3 +278,46 @@ const adult = {
 };
 
 console.log(adult.getName("Sita"));
+
+function handleOnClick(event) {
+  console.log("Button clicked!", event);
+
+  const element = document.getElementById("time");
+
+  const today = new Date();
+
+  element.innerHTML = today;
+}
+
+const btn = document.getElementById("btn");
+
+console.log("Executed");
+
+btn.addEventListener("click", handleOnClick());
+
+const blue = document.getElementById("blue"); //blue
+const red = document.getElementById("red"); //
+const yellow = document.getElementById("yellow"); //
+const green = document.getElementById("green"); //
+const message = document.getElementById("msg"); //
+
+blue.addEventListener("click", function () {
+  const elem = document.createElement("div");
+
+  elem.style.color = "blue";
+  elem.innerHTML = "Color <br> BLUE";
+
+  message.appendChild(elem);
+});
+
+red.addEventListener("click", function () {
+  message.innerHTML = "<div style='color:red'>Color <br/> RED</div>";
+});
+
+yellow.addEventListener("click", function () {
+  message.innerHTML = "<div style='color:yellow'>Color <br/> YELLOW</div>";
+});
+
+green.addEventListener("click", function () {
+  message.innerHTML = "<div style='color:green'>Color <br/> GREEN</div>";
+});
